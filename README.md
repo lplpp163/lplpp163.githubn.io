@@ -7,6 +7,6 @@ Function:
 2. Compute complexity (x)
 
 Supported Programming Language:
-1.Blocks Code
-2.JavaScript
-3.Python
+1. Blocks Code
+2. JavaScript
+3. Python
