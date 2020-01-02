@@ -33,7 +33,7 @@ var Code = {};
  */
 Code.LANGUAGE_NAME = {
   'en': 'English',
-  'zh-hans': '中文',
+  'zh': '中文',
 };
 
 /**
