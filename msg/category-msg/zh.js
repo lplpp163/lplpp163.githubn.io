@@ -2,7 +2,7 @@ var MSG = {
   title: "程式碼",
   blocks: "塊",
   linkTooltip: "保存模塊並生成鏈接。",
-  runTooltip: "於工作區中運行塊所定義的程式。",
+  runTooltip: "運行程式並計算複雜度。",
   badCode: "程序錯誤：\n%1",
   timeout: "超過最大執行行數。",
   trashTooltip: "放棄所有塊。",
@@ -20,5 +20,6 @@ var MSG = {
   linkAlert: "通過這個鏈接分享您的模塊：\n\n%1",
   hashError: "對不起，沒有任何已保存的程序對應'%1' 。",
   xmlError: "無法載入您保存的文件。您是否使用其他版本的Blockly創建該文件的？",
-  badXml: "XML解析錯誤：\n%1\n\n選擇“確定”以取消您對XML的修改，或選擇“取消”以繼續編輯XML。"
+  badXml: "XML解析錯誤：\n%1\n\n選擇“確定”以取消您對XML的修改，或選擇“取消”以繼續編輯XML。",
+  complexity: "循環複雜度：",
 };

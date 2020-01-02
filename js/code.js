@@ -28,6 +28,8 @@
  */
 var Code = {};
 
+
+
 /**
  * Lookup for names of supported languages.  Keys should be in ISO 639 format.
  */
@@ -431,8 +433,7 @@ Code.initLanguage = function() {
   languageMenu.addEventListener('change', Code.changeLanguage, true);
 
   // Inject language strings.
-  document.title += ' ' + MSG['title'];
-  document.getElementById('title').textContent = MSG['title'];
+  
   document.getElementById('tab_blocks').textContent = MSG['blocks'];
 
   document.getElementById('linkButton').title = MSG['linkTooltip'];
@@ -464,6 +465,8 @@ Code.runJS = function() {
   } = window['js2flowchart'];
   
   document.getElementById('svgImage').innerHTML = convertCodeToSvg(code);
+
+  alert(MSG['complexity'] + complexityEvaluator(code));
 };
 
 Code.flowchart = function() {
@@ -474,6 +477,7 @@ Code.flowchart = function() {
   } = window['js2flowchart'];
   
   document.getElementById('svgImage').innerHTML = convertCodeToSvg(code);
+
 };
 
 /**
